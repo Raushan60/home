@@ -1,0 +1,673 @@
+/***=====FOR MOBILE AND TABLETS=====***/
+@media only screen and (min-width:280px) and (max-width:1023px)/* and (orientation:portrait)*/{
+    
+    /***DESTOP MENU***/
+    .desk-menu-cont-s{
+        display: none;
+    }
+    
+    /***MOBILE MENU***/
+    .mob-menu-s{
+        display: block;
+    }
+    
+    /***HOMEPAGE***/
+    
+    body{
+        font-size: 4vw;
+    }
+    
+    /**HEADER**/
+    #logo{
+        width: 36%;
+    }
+    
+    #nav-link-cont{
+        display: none;
+    }
+    
+    #pay-emi-btn-cont{
+        width: 28%;
+    }
+    
+    .pay-emi-btn{
+        padding: 0.6em 1.2em;
+    }
+    
+    #phone-number-cont{
+        display: none;
+    }
+    
+    #other-ops-cont{
+        width:10%;
+    }
+    
+    .other-icon{
+        width: 3.5em;
+    }
+    
+    #open-login, #share-module{
+        display: none;
+    }
+    
+    #open-search{
+        border: 0;
+    }
+    
+    #search-field-cont{
+        height: 3em;
+    }
+    
+    .search-field-icon {
+        padding: 4% 3%;
+        width: 2.5em;
+    }
+    
+    #search-inp{
+        font-size: 0.8em;
+    }
+    
+    /**SLIDER**/
+    .slide{
+        padding: 16em 0 0 2em;
+    }
+    
+    .sub-titl{
+        font-size: 1.1em;
+    }
+    
+    .slide-main-titl{
+        font-size: 2.1em;
+        padding: 0.3em 0 0.5em;
+    }
+    
+    .slide-apply-now{
+        float: left;
+        padding: 0.8em 2em;
+    }
+    
+    .slide-titl-img{
+        margin-bottom: 1em;
+    }
+    
+    /*slider controls*/
+    #slider-control{
+        display: none;
+    }
+    
+    /*slides*/
+    .slide-1{
+        background-image: url(../images/slide1.jpg);
+    }
+    
+    .slide-2{
+        background-image: url(../images/slider-0percent-m.jpg);
+    }
+    
+    .slide-3{
+        background-image: url(../images/slider-mobile-app-m.jpg);
+    }
+    
+    .slide-4{
+        background-image: url(../images/slider-aon-m.jpg);
+    }
+    
+    .slide-5{
+        background-image: url(../images/slider-mini-cash-loan-m.jpg);
+    }
+    
+    /**EMI CALCULATOR**/
+    .emi-calc-top-s, .emi-calc-bottom-s {
+        width: 100%;
+    }
+    .emi-calc-top-s{
+        height: calc(72% - 4.7em);
+        margin-top: 5em;
+    }
+    
+    #emi-calc-control-par{
+        height: 95%;
+    }
+    
+    #emi-calc-form-inner-top{
+        height: 85%;
+    }
+    
+    #emi-calc-main-titl{
+        font-size: 2.4vh;
+        padding-bottom: 0.5em;
+    }
+    
+    #emi-calc-form-inner-top>.block-75{
+        height: 75%;
+    }
+    
+    #emi-calc-ul{
+        border: none;
+    }
+    
+    .emi-calc-inner-titl{
+        width: 38%;
+    }
+    
+    .emi-slider-cont{
+        width: 42%;
+    }
+    
+    .emi-calc-inp{
+        font-size: 2vh;
+    }
+    
+    
+    #know-more-block{
+        padding: 0;
+    }
+    
+    #inicative-pay-cont{
+        padding: 1vh 0;
+    }
+    
+    #indicative-pay-titl, #indicative-pay-amt{
+        width: 50%;
+    }
+    
+    #indicative-pay-titl{
+        font-size: 1.7vh;
+        text-align: left;
+    }
+    
+    #indicative-pay-amt{
+        font-size: 3vh;
+        text-align: right;
+    }
+    
+    .calc-icons{
+        display: none;
+    }
+    
+    #calc-know-more-out{
+        margin: 0;
+        padding: 0 35%;
+    }
+    
+    .calc-know-more-s{
+        padding: 7% 0;
+    }
+    
+    #emi-calc-submit-sec{
+        height: 15%;
+    }
+    
+    #emi-calc-condi>li {
+        font-size: 1.3vh;
+        line-height: 2vh;
+    }
+    
+    .emi-calc-bottom-s{
+        border-right: none;
+        bottom: 2.2em;
+        height: calc(28% - 2.5em);
+    }
+    
+    .emi-calc-btn-title{
+        height: 6.6vh;
+        padding: 10% 0 10%;
+        line-height: 1.2em;
+    }
+    
+    .emi-calc-btn-icon{
+        padding: 5% 10%;
+    }
+    
+    .emi-calc-close-btn-s{
+        width: 10%;
+    }
+    
+    /*emi mini cash loan tab*/
+    #emi-minicash-list>li{
+        padding-bottom: 0.5em;    
+    }
+    
+    .emi-minicash-icon {
+        height: 4.8vh;
+        width: 8%;
+    }
+    
+    .emi-minicash-block-right{
+        margin-top: 0;
+    }
+    
+    .minicash-text{
+        font-size: 0.8em;
+        line-height: 2em;
+    }
+    
+    .m-text-1{
+        display: none;
+    }
+    
+    .m-text-2{
+        display: block;
+    }
+    
+    .know-more-btn-adtv{
+        font-size: 0.8em;
+        padding: 0.5em 1.2em;
+    }
+    
+    /**FOOTER**/
+    #home-footer{
+        bottom: -1.5vh;    
+    }
+    
+    #home-footer-inr{
+        border-top: none;    
+    }
+    
+    #footer-links, #footer-copy{
+        position: relative;
+    }
+    
+    #footer-links{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .bottom-links-home>li{
+        margin: 2vh 0 0 0;
+    }
+    
+    #footer-copy{
+        right: 50%;
+        transform: translateX(50%)
+    }
+    
+    
+    /***MOBILE MENU***/
+    .ft-txt-enab{
+        max-height: 15em;
+    }
+    
+    /***BANNERS***/
+    
+    
+    /***ABOUT & OTHER PAGES***/
+    
+    /**HEADER**/
+    #banner-info{
+        margin: 30vh 0 0 7%;
+    }
+    
+    #ban-titl{
+        font-size: 1.4em;
+        margin-bottom: 0.6em;
+    }
+    
+    #ban-main-titl{
+        font-size: 1.8em;
+        margin-bottom: 0.6em;
+    }
+    
+    .content-bord{
+        width: 4em;
+    }
+    
+    .cont-bord-wht{
+        border-bottom: 0.2em solid rgba(255,255,255,1);
+    }
+    
+    .cont-bord-red{
+        border-bottom: 0.2em solid #de232e;
+    }
+    
+    .cont-bord-mar{
+        margin-bottom: 1.2em;
+    }
+    
+    #banner-text{
+        font-size: 0.9em;
+        line-height: 1.6em;
+        margin-bottom: 1.5em;
+        width: 90%;
+    }
+    
+    /*inner pages nav dots*/
+    .narrow-row{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .fat-lines{
+        padding: 2.5% 0;
+    }
+    
+    #abt-nav-dots{
+        bottom: 0;
+        width: 100%;
+    }
+    
+    #abt-nav-line-cont, #abt-nav-line-cont-short, #abt-nav-line-cont-short-2{
+        display: none;
+    }
+    
+    #abt-nav-dot-cont>li{
+        margin: 5% 14%;
+    }
+    
+    .abt-dot{
+        border: 0.3em solid #000;
+        height: 1em;
+        width: 1em;
+    }
+    
+    .abt-dot-titl{
+        font-size: 0.7em;
+        -webkit-transform: translate(calc(-50% + 0.6em), -200%) translateZ(0);
+        transform: translate(calc(-50% + 0.6em), -200%) translateZ(0);
+    }
+    
+    /*content*/
+    .content-titl-r, .content-titl-w {
+        font-size: 1.7em;
+        line-height: 1.3em;
+        margin: 0.2em 0 0.7em 0;
+    }
+    
+    .content-text-b, .content-text-w, .content-text-r {
+        font-size: 0.8em;
+        font-weight: normal;
+        line-height: 2em;
+    }
+    
+    .sec-inr-block-rt {
+        padding-top: 5%;
+    }
+    
+    #loan-features>li {
+        margin-bottom: 2.5em;
+    }
+    
+    #product-features{
+        padding: 5% 0 8% 0;
+    }
+    
+    .section-inr{
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    #feature-left{
+        width: 90%;
+        padding: 0 0 8% 5%;
+    }
+    
+    #feature-right{
+        width: 100%;
+        padding-left: 5%;
+    }
+    
+    .feature-point, .feature-point-r, .feature-point-b {
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        line-height: 1.3em;
+    }
+    
+    #feature-btns {
+        margin-top: -1%;
+        width: 1.8em;
+    }
+    
+    .feature-text>p, .feature-text-b>p {
+        font-size: 0.7em;
+        line-height: 1.8em;
+        margin-top: 1.2em;
+        padding-left: 5%;
+    }
+    
+    /**product page**/
+    .grid-cont{
+        padding: 7.1em 0 0 2em;
+    }
+    .pro-grid{
+        height: 15em;
+    }
+    
+    .grid-titl{
+        font-size: 1.5em;
+        margin-bottom: 0.6em;
+    }
+    
+    .grid-read-btn {
+        font-size: 0.8em;
+        line-height: 2.5em;
+        width: 10em;
+    }
+    
+    .list-basic>li {
+        font-size: 0.8em;
+        line-height: 1.5em;
+        margin-bottom: 1.2em;
+    }
+    
+    .feat-list-icon{
+        width: 12%;
+    }
+    
+    .feat-list-text{
+        font-size: 0.8em;
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+    
+    #cash-loan-feat{
+        padding: 3% 1% 3% 5%;
+    }
+    
+    /*apply now button*/
+    .common-apply-now{
+        font-size: 0.8em;
+        padding: 1.2em 2.5em;
+    }
+    
+    .common-apply-now-r {
+        font-size: 0.8em;
+        padding: 1.2em 2.5em;
+    }
+    
+    /*scroll icon*/
+    #scroll-icon{
+        display: none;
+    }
+    
+    /*Our People*/
+    .sec-inr-block-rt.our-people-block{
+        padding-left: 4%;
+    }
+    .our-people-block{
+        height: auto;
+    }
+    
+    .our-people-image{
+        padding: 0 50% 5% 0;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        top: 0; 
+    }
+    
+    .our-people-titl{
+        font-size: 1.8em;
+        margin-bottom: 0.5em;
+    }
+    
+    .our-people-desg{
+        font-size: 1em;
+    }
+    
+    .our-people-info{
+        font-size: 0.8em;
+        line-height: 2em;
+    }
+    
+    .our-people-icon{
+        width: 16%;
+        padding: 0 1%;
+    }
+    
+    .our-people-thumb-titl{
+        font-size: 0.6em;
+    }
+    
+    .section-inr-m{
+        padding: 0;
+    }
+    
+    .section-inr-m-pad{
+        padding-left: 5%;
+    }
+    
+    .life-slide-cap>p{
+        width: 100%;
+    }
+    
+    #lifeSliderControls{
+        padding-left: 5%;
+    }
+    
+    .life-btns{
+        padding: 0 4%;
+    }
+    
+    /**CONATCT US**/
+    .contact-icon{
+        margin: 0 3.5% 5% 0;
+        width: 5em;
+    }
+    .contact-icon-btn{
+        font-size: 2.5em;
+        line-height: 1.9em;
+    }
+    
+    .contact-tab-title{
+        font-size: 1.3em;
+    }
+    
+    /**CORPORATE GOVERNANCE**/
+    .cor-gov-nav{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    .cor-gov-tab{
+        font-size: 0.8em;
+        line-height: 3em;
+    }
+    
+    .tab-left, .tab-right, .tab-cen{
+        text-align: left;
+    }
+    
+    .pdf-block{
+        padding: 3%;
+    }
+    
+    .pdf-block-text>p{
+        font-size: 0.8em;
+        line-height: 2em;
+    }
+    
+    .pdf-block-btn>a{
+        font-size: 1em;
+    }
+    
+    /**apply for loan**/
+    #apply-now-form-inr{
+        margin-top: -16em;
+    }
+    
+    #apply-now-form{
+        padding: 2em;
+    }
+    
+    .form-inp-block{
+        padding: 0;
+    }
+    
+    .apply-other-cont{
+        padding: 0;
+    }
+    
+    #apply-check{
+        margin-bottom: 1em;
+        width: 5%;
+    }
+    
+    #apply-check>input{
+        height: 1.6em;
+        width: 1.6em;
+    }
+    
+    /**FOOTER**/
+    #footer{
+        display: none;
+    }
+    
+    .footer-2{
+        display: block;
+    }
+
+}
+
+/***=====Landscape Orientation=====***/
+@media only screen and (min-width:280px) and (max-width:1023px) and (orientation:landscape){
+    body{
+        font-size: 2vw;
+    }
+    
+    /**header**/
+    .search-field-icon {
+        padding: 1.5% 1%;
+    }
+    
+    /**slider**/
+    .slide {
+        padding: 10em 0 0 2em;
+    }
+    
+    /**emi calculator**/
+    #emi-calc-top, #emi-calc-bottom{
+        display: none;
+    }
+    
+    /**nav dots**/
+    #abt-nav-dot-cont>li {
+        margin: 2% 12%;
+    }
+    
+    /**bottom links**/
+    #home-footer{
+        bottom: -4vh;
+    }
+    
+    .bottom-links-home>li{
+        margin: 8vh 0 3vh 0;
+    }
+}
+
+
+/***=====FOR TABLETS=====***/
+@media only screen and (min-width:768px) and (max-width:1023px){
+    
+    body{
+        font-size: 3vw;
+    }
+    
+    #banner-info {
+        margin: 15em 0 0 7%;
+    }
+    
+    #ban-main-titl {
+        font-size: 2.8em;
+        margin-bottom: 0.5em;
+    }
+}
